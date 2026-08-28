@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom|start">
+
+    <!-- 空心正方形按钮:点击打开概览界面 -->
+    <ImageButton
+        android:id="@+id/btn_square"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_gray_square"
+        android:src="@drawable/ic_square_hollow"
+        android:scaleType="center"
+        android:contentDescription="@string/desc_overview_button" />
+
+    <!-- 折叠/展开三角形按钮 -->
+    <ImageButton
+        android:id="@+id/btn_toggle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/bg_gray_circle"
+        android:src="@drawable/ic_triangle_left"
+        android:scaleType="center"
+        android:contentDescription="@string/desc_toggle_button" />
+
+</LinearLayout>
