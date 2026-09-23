@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">悬浮概览按钮</string>
+    <string name="btn_grant_overlay">1. 授予悬浮窗权限</string>
+    <string name="btn_grant_accessibility">2. 开启无障碍服务(用于打开概览界面)</string>
+    <string name="btn_start_service">3. 启动悬浮按钮</string>
+    <string name="btn_stop_service">停止悬浮按钮</string>
+    <string name="desc_overview_button">打开概览界面</string>
+    <string name="desc_toggle_button">折叠/展开按钮</string>
+    <string name="accessibility_service_description">用于响应悬浮按钮点击,打开系统概览(最近任务)界面。</string>
+    <string name="toast_need_overlay">请先授予悬浮窗权限</string>
+    <string name="toast_need_accessibility">请先开启无障碍服务,否则无法打开概览界面</string>
+    <string name="notification_channel_name">悬浮按钮服务</string>
+    <string name="notification_text">悬浮按钮正在运行</string>
+</resources>
