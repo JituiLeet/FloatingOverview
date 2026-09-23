@@ -23,8 +23,3 @@
 ## 许可证
 
 本项目基于 MIT License 开源，详见 [LICENSE](LICENSE)。
-
-
-## Android 14 compatibility
-
-This build targets Android 14 (API 34) and compiles against API 34. The minimum supported Android version remains API 24. The floating foreground service declares the Android 14 `specialUse` foreground-service type and its required subtype property. Android 13+ notification permission is requested at runtime.
